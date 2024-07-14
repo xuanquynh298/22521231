@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(87, 206, 153);
+}
+
+.box {
+    background-color: white;
+    padding: 3%;
+    box-shadow: 8px 8px rgb(98, 182, 144);
+}
+
+p {
+    color: gray;
+    margin: 0px;
+}
+
+form {
+    margin: 0px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.inf {
+    margin-bottom: 30px;
+}
+.inf p {
+    margin-bottom: 10px;
+    font-size: 12;
+}
+
+/* ô input */
+.container {
+    display: flex;
+}
+button {
+    border: none;
+    background-color: rgb(87, 206, 153);
+    width: 13%;
+}
+button i {
+    color: white;
+}
+input {
+    width: 100%;
+    border: none;
+    background-color: rgb(229, 228, 228);
+    padding: 3%;
+}
+
+/* button login */
+#login {
+    border: none;
+    width: 100%;
+    padding: 3%;
+    color: white;
+    font-weight: bold;
+    font-size: 15;
+    background-color: rgb(87, 206, 153);
+}
+#login:hover {
+    background-color: rgb(65, 185, 145);
+    cursor: pointer;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.footer a {
+    margin-left: 8px;
+    text-decoration: none;
+    color: gray;
+}
